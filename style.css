@@ -4,18 +4,18 @@ html {
 
 @font-face {
   font-family: "Georgia";
-  src: url("../../assets/fonts/georgia.ttf");
+  src: url("./assets/fonts/georgia.ttf");
   src: local("Georgia Regular"), local("Georgia-Regular"),
-    url("../../assets/fonts/georgia.ttf") format("truetype");
+    url("./assets/fonts/georgia.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Arial";
-  src: url("../../assets/fonts/arial.ttf");
+  src: url("./assets/fonts/arial.ttf");
   src: local("Arial Regular"), local("Arial-Regular"),
-    url("../../assets/fonts/arial.ttf") format("truetype");
+    url("./assets/fonts/arial.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -25,7 +25,7 @@ html {
   margin: 0 auto;
 }
 .se-anur {
-  background-image: url("../../assets/images/start-screen-gradient-background.jpg");
+  background-image: url("./assets/images/start-screen-gradient-background.jpg");
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -432,7 +432,7 @@ span {
 /* footer */
 
 .footer {
-  background-image: url("../../assets/images/footer-gradient-background.jpg");
+  background-image: url("./assets/images/footer-gradient-background.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
